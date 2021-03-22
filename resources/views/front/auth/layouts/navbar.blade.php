@@ -7,7 +7,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+               <!--  <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('/about')}}">Sobre-nós</a>
                 </li>
                 <li class="nav-item">
@@ -15,7 +15,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('/contact')}}">Contactos</a>
-                </li>
+                </li> -->
             </ul>
                 <a class="btn btn-primary my-2 my-sm-0" href="">REGISTAR</a>
         </div>

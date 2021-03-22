@@ -14,7 +14,7 @@
 
 @section('content')
 
-<div class="section-1">
+<div class="section-1" id="login-section">
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="{{URL::to('/front/stores')}}" class="btn btn-primary btn-large px-5">COMECAR A COMPRAR</a>
+            <a href="#login-section" class="btn btn-primary btn-large px-5">COMECAR A COMPRAR</a>
         </div>
     </div>
 </div>

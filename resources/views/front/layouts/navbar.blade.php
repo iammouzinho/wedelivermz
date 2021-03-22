@@ -16,6 +16,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('/contact')}}">Contactos</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{URL::to('/contact')}}">Book Delivery</a>
+                </li>
             </ul>
                 <a class="btn btn-primary my-2 my-sm-0" href="">REGISTAR</a>
         </div>
