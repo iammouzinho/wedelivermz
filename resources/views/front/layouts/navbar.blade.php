@@ -14,7 +14,7 @@
                     <a class="nav-link" href="{{URL::to('/help')}}">Ajuda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{URL::to('/contact')}}">Contactos</a>
+                    <a class="nav-link" href="{{URL::to('/book-deliver')}}">Book Deliver</a>
                 </li>
             </ul>
                 <a class="btn btn-primary my-2 my-sm-0" href="">REGISTAR</a>
