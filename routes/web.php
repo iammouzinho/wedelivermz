@@ -23,3 +23,27 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/book-deliver', function () {
     return view('front.book');
 });
+
+Route::get('/services', function () {
+    return view('front.services');
+});
+
+Route::get('/program', function () {
+    return view('front.program');
+});
+
+Route::get('/history', function () {
+    return view('front.history');
+});
+
+Route::get('/help', function () {
+    return view('front.help');
+});
+
+Route::get('/stores', function () {
+    return view('front.stores');
+});
+
+Route::get('/about', function () {
+    return view('front.about');
+});

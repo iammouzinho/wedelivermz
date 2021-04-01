@@ -1,23 +1,25 @@
 @extends('front.layouts.master')
 
 @section('title')
-    BOOK DELIVER
+    ENTREGAS
 @endsection
-
 
 
 @section('metas')
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 <link rel="stylesheet" href="{{URL::to('css/book.css')}}">
+
 <style>
-    html,body{height:100%;}
+    html, body{
+        height:100%;
+    }
 </style>
+
 @endsection
 
 
-
-@section('content')
+@section('content')q
 
 
 <div class="wrapper">

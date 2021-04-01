@@ -10,15 +10,29 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('/stores')}}">Lojas</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="{{URL::to('/help')}}">Ajuda</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="{{URL::to('/book-deliver')}}">Book Deliver</a>
+                    <a class="nav-link" href="{{URL::to('/about')}}">Sobre-nós</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{URL::to('/contact')}}">Book Delivery</a>
+                    <a class="nav-link" href="{{URL::to('/services')}}">Servicos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{URL::to('/book-deliver')}}">Entregas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{URL::to('/program')}}">Programa de Fidelidade</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{URL::to('/history')}}">Historia de Sucesso</a>
                 </li>
             </ul>
                 <a class="btn btn-primary my-2 my-sm-0" href="">REGISTAR</a>
