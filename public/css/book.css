@@ -1,7 +1,35 @@
-body{ 
-  margin-top:40px; 
+
+html, body{
+  height:100%;
 }
 
+#book-section{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top:56.28px;
+  display: flex;
+  flex-direction: row;
+}
+
+#right-side{
+  width: 360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 9000;
+  position: relative;
+  box-shadow: 0 0 6px rgb(0 0 0 / 40%);
+  background-color: rgb(10, 173, 10);
+}
+
+#map, #left-side{
+  display: flex;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
 
 .stepwizard-row {
   display: table-row;
@@ -36,10 +64,6 @@ line-height: 1.428571429;
 border-radius: 15px;
 }
 
-
-.book-left{
-  background-color: rgb(10, 173, 10);
-}
 .stepwizard{
   color: white;
 
