@@ -24,7 +24,7 @@
         constructor(map) {
             this.map = map;
             this.originPlaceId = "";
-            this.destinationPlaceId = "Maputo";
+            this.destinationPlaceId = "";
             this.travelMode = google.maps.TravelMode.DRIVING;
             this.directionsService = new google.maps.DirectionsService();
             this.directionsRenderer = new google.maps.DirectionsRenderer();
